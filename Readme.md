@@ -1,0 +1,13 @@
+PROJETO PARA TESTE DE DJANGO + REACT
+DESENVOLVIDO POR GREGORIO + ALEXANDRE
+
+HELP:
+ROTA DE CADASTROS E CONSULTA:
+http://localhost:8000/api/todos/
+
+#ACESSO AO ADM
+http://localhost:8000/admin
+
+#AUTENTICACAO
+usuario: todo
+senha: 123
