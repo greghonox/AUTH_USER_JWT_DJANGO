@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Todo, Pasciente
+
+from .models import Pasciente, Todo, UserProfile
 
 
 class TodoAdmin(admin.ModelAdmin):
@@ -9,4 +10,5 @@ class TodoAdmin(admin.ModelAdmin):
 # Register your models here.
 
 admin.site.register(Todo, TodoAdmin)
+admin.site.register(UserProfile)
 admin.site.register(Pasciente)
